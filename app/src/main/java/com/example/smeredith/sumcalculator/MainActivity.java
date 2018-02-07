@@ -30,13 +30,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         //get references to the widgets
-        editTextNum1 = (EditText) findViewById(R.id.editTextNum1);
-        editTextNum2 = (EditText) findViewById(R.id.editTextNum2);
-        button = (Button) findViewById(R.id.button);
-        textViewSum = (TextView) findViewById(R.id.textViewSum);
+        editTextNum1 = findViewById(R.id.editTextNum1);
+        editTextNum2 = findViewById(R.id.editTextNum2);
+        button = findViewById(R.id.button);
+        textViewSum = findViewById(R.id.textViewSum);
 
         //set the listener
-        button.setOnClickListener((View.OnClickListener) this);
+        button.setOnClickListener(this);
 
         //get SharedPreferences object
         savedValues = getSharedPreferences("SavedValues", MODE_PRIVATE);
@@ -74,7 +74,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         calculateAndDisplay();
-        Intent intent = Intent(this, Activity2.java);
+        Intent intent = new Intent(this, Activity2.class);
         startActivity(intent);
     }
 }
