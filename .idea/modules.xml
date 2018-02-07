@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\disasterisk\Downloads\SumCalculator-master\SumCalculator-master\SumCalculator.iml" filepath="C:\Users\disasterisk\Downloads\SumCalculator-master\SumCalculator-master\SumCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumCalculator-master.iml" filepath="$PROJECT_DIR$/SumCalculator-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\disasterisk\Downloads\SumCalculator-master\SumCalculator-master\app\app.iml" filepath="C:\Users\disasterisk\Downloads\SumCalculator-master\SumCalculator-master\app\app.iml" />
+    </modules>
+  </component>
+</project>
